@@ -2,21 +2,26 @@ function nameMenuItem(name) {
 
 return (`Delicious ${name}`)
 }
-nameMenuItem("Burrito")
-nameMenuItem("Pizza")
-nameMenuItem("Taco")
 
-function createMenuItem(){
-  let menuItem = {
-    name: "French Toast",
-    price: 10.99,
-    type: "breakfast",
+function createMenuItem(name, price, type){
+  return {
+    name: name,
+    price: price,
+    type: type
   }
 }
 
-function addIngredients(ingredient,quant) {
-  quant.push(ingredient);
-}
+function addIngredients(ingredient, quant) {
+  // return arr.push(ingredient)
+
+    quant.push(ingredient);
+  }
+
+
+// addIngredients("cheese",quant)
+// addIngredients("peppers", quant)
+// addIngredients("onion"), quant
+
 
 
 module.exports = {
