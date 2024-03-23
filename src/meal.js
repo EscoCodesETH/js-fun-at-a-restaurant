@@ -12,9 +12,10 @@ function createMenuItem(name, price, type){
 }
 
 function addIngredients(ingredient, quant) {
-  // return arr.push(ingredient)
+  console.log (ingredient, quant)
+  //  return arr.push(ingredient)
 
-    quant.push(ingredient);
+   quant.push(ingredient);
   }
 
 
